@@ -1,11 +1,16 @@
 # Welcome
 
+!!! caution
+    This page is still under construction. Check back later for new content!
+
 !!! abstract "Executive Overview"
-    This repository serves two purposes. One is to provide a structure and shell files to create further repositories without having to copy files or look for information. The second is to provide documentation on how to write and maintain documentation for those repos.
+    Commercial Virtual Remote (CVR) was decommissioned 15 June 2021. DoD365 is the department's overarching program to provide an enduring solution for on-site and remote office productivity and collaboration. DISA, U.S. Special Operations Command, and each service branch have established their own DoD365 tenant environments with different names and timelines for the implementation of features and capabilities embedded within the DoD365 environment. These timelines are based on individual requirements necessary to meet common cybersecurity and capability baselines to safeguard the DoD network infrastructure. 
 
-    Well-written documentation can make all the difference for a piece of software in terms of adoption, utilization, and maintainability. Most of the time it is dreaded and an afterthought due to time constraints. When possible, we should use the code is documentation principle. However, documentation may cover other aspects that are not highlighted in the code. For example build instructions, required dependacies, and enviromental variables. Additionaly, by providing guidance on how to write code and documentation, it keeps all developers on the same page and shared mental model. 
+![daf365-image](static/images/main-image.PNG)
 
-![image](static/images/main-image.jpg)
+There are two ways to access the Office365 Suite
 
-!!! attention "Documentation Requirement"
-    All repository documentation will be written with [MkDocs](https://www.mkdocs.org/) and utilize the [:logo:Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
+1. On NIPR or VPN, go to [https://www.ohome.apps.mil/](https://www.ohome.apps.mil)
+2. On commercial internet, go to [https://webmail.apps.mil/](https://webmail.apps.mil)
+
+[:fontawesome-solid-external-link-alt:NIPR](https://www.ohome.apps.mil){ .md-button .md-button--primary } [:fontawesome-solid-external-link-alt:HOME](https://webmail.apps.mil){ .md-button .md-button--primary }

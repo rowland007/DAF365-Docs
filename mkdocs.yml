@@ -14,14 +14,30 @@ copyright: 'Copyright &copy; 2022 Randall Rowland<br>This work is licensed under
 # Navigation Menu
 nav:
     - Overview: 'index.md'
-    - How to use the template:
-        'Overview': 'template/index.md'
-        'More Info': 'template/info.md'
-    - About Mkdocs:
-        'Overview': 'mkdocs/index.md'
-    - Documentation Style:
-        'Overview': 'style/index.md'
-    - Appendix 1 - Resources: 'resources.md'
+    - Office 365:
+        'Overview': 'o365/index.md'
+        'Outlook': 'o365/outlook.md'
+        'Word': 'o365/word.md'
+        'Excel': 'o365/excel.md'
+        'PowerPoint': 'o365/point.md'
+        'OneNote': 'o365/onenote.md'
+        'Lists': 'o365/lists.md'
+        'Forms': 'o365/forms.md'
+    - Teams:
+        'Overview': 'teams/index.md'
+    - OneDrive:
+        'Overview': 'onedrive/index.md'
+        'Desktop Application': 'onedrive/desktop.md'
+    - Planner:
+        'Overview': 'planner/index.md'
+    - SharePoint:
+        'Overview': 'sharepoint/index.md'
+    - Power Suite:
+        'Overview': 'power/index.md'
+        'Power Automate': 'power/automate.md'
+        'Power Apps': 'power/apps.md'
+    - Appendix 1 - Flow 3: 'flow3.md'
+    - Appendix 2 - Resources: 'resources.md'
 
 # Configuration
 theme:
@@ -41,7 +57,7 @@ theme:
   icon:
     admonition:
       cite: octicons/link-external-16
-    logo: material/file-document-edit-outline
+  logo: static/images/favicon.png
   favicon: static/images/favicon.png
 
 # Customization
